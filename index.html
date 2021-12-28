@@ -1,805 +1,296 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
+    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Creative CV</title>
-    <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-  </head>
-  <body id="top">
-    <header>
-      <div class="profile-page sidebar-collapse">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-          <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Recreative CV</a>
-              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Renzo Rovi - Freelancer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/codi.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Acerca de mí</a></li>
-                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li> -->
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experiencia</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contactame</a></li>
-              </ul>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Logo -->
+                        <!-- <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a> -->
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <!-- <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./index.html">- Home</a></li>
+                                            <li><a href="./about.html">- About</a></li>
+                                            <li><a href="./gallery.html">- Gallery</a></li>
+                                            <li><a href="./blog.html">- Blog</a></li>
+                                            <li><a href="./single-blog.html">- Blog Details</a></li>
+                                            <li><a href="./contact.html">- Contact</a></li>
+                                            <li><a href="#">- Dropdown</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                    <li><a href="./about.html">About</a></li> 
+                                    <!-- <li><a href="./gallery.html">Gallery</a></li>  -->
+                                
+                                    <!-- <li><a href="./blog.html">Blog</a></li> -->
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
             </div>
-          </div>
-        </nav>
-      </div>
+        </div>
     </header>
-    <div class="page-content">
-      <div>
-<div class="profile-page">
-  <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/fondit.jpg');"></div>
-      <div class="container">
-        <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/perfilrenzo.jpg" alt="Image"/></a></div>
-          <div class="h2 title">Renzo M. Rosas Vidal</div>
-          <p class="category text-white">Desarollador Móvil | Android & iOS| Marketing Digital</p>
-          <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contáctame</a>
-          <a class="btn btn-primary" href="./assets/cv_rosas_mobile.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Descarga mi CV</a>
-          <a class="btn btn-primary" href="./pages/verCV.html" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Ver CV online</a>
+    <!-- Header Area End -->
+
+    <!-- Welcome Area Start -->
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInDown" data-delay="900ms">Hello, I'm Renzo and I'm Flutter Developer.</h2>
+                                <p data-animation="bounceInDown" data-delay="500ms"></p>
+                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
+                                    <a href="https://api.whatsapp.com/send?phone=+51972696048" class="btn alime-btn mb-3 mb-sm-0 mr-4" >WhatsApp</a>
+                                    <a class="hero-mail-contact" href="mailto:renzo.rovi@gmail.com">renzo.rovi@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInUp" data-delay="100ms">and Small Business Advertising Video Producer</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">If you have a small business, ask for your first free advertising video</p>
+                                <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
+                                    <a href="https://api.whatsapp.com/send?phone=+51972696048" class="btn alime-btn mb-3 mb-sm-0 mr-4" >WhatsApp</a>
+                                    <a class="hero-mail-contact" href="mailto:renzo.rovi@gmail.com">renz.rovi@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="button-container">
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/atrapame155/" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/renzorovi/" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a>            
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/renzorosaz" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.youtube.com/watch?v=W1Eo5SzqOxs&feature=youtu.be" rel="tooltip" title="Follow me on Youtube"><i class="fa fa-youtube"></i></a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="about">
-  <div class="container">
-    <div class="card" data-aos="fade-up" data-aos-offset="10">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">Acerca</div>
-            <p>Hola! Soy Renzo Rosas </p>
+    </section>
+    <!-- Welcome Area End -->
+
+    <!-- Gallery Area Start -->
+    <div class="alime-portfolio-area section-padding-80 clearfix">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Projects Menu -->
+                    <div class="alime-projects-menu">
+                        <div class="portfolio-menu text-center">
+                            <button class="btn" data-filter=".flutter"> in PlayStore</button>
+                            <button class="btn active" data-filter=".videoprod">in Digital Marketing</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row alime-portfolio">
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item flutter mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/sodimac.png" alt="">
+                        <div class="hover-content">
+                            <a href="https://play.google.com/store/apps/details?id=pe.com.sodimac.paperless">
+                                Go!
+                             </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item flutter mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/logoqenqo.png" alt="">
+                        <div class="hover-content">
+                            <a href="https://www.youtube.com/watch?v=AlPRtAhC3OA&ab_channel=MFTHabits4life">
+                                Go!
+                             </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item flutter mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/rutus.png" alt="">
+                        <div class="hover-content">
+                            <a href="https://play.google.com/store/apps/details?id=rutusapp.peru">
+                                Go!
+                             </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item flutter mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/olaclikpro.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="https://play.google.com/store/apps/details?id=rutusapp.peru">
+                                Go!
+                             </a>
+                        </div>
+                    </div>
+                </div>
+                 
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item videoprod mb-30 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/apfig.jpeg" alt="">
+                        <div class="hover-content">
+                            <a href="https://www.instagram.com/p/CI05l_-J4mq/">
+                               Go!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item videoprod mb-30 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/apfig.jpeg" alt="">
+                        <div class="hover-content">
+                            <a href="https://www.facebook.com/APFighter/videos/630433624826564  ">
+                               Go!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+
             
-            <p>Ingeniero en Computación con 2 años de experiencia en posiciones como desarrollador, coordinador en áreas de TI y desarrollo de software.</p> 
 
-<p>Me encanta el desarrollo e innovación, sea para coordinar una reunión o meet-ups sobre oportunidades de formar equipos multidisciplinarios, compartir experiencias con nuevas tecnologías y planificar actividades o dinámicas para crear productos digitales o MVP usando Design Thinking</p>
-<p>Tecnologías que conozco:</p>
-<P>Cloud: AWS, Heroku</P>
-<p>React, Angular, Bootstrap, JavaPrimeFaces, JS, CSS</p>
-<p>MySQL, SQLite, Firebase, MongoDB.</p>
-<p>Python , Django , Flask , NodeJS, Java, Android, PHP, C#</p>
-<p>UiPath</p>
-<p>Power BI, Tableau, ETL, SSIS , Datawarehouse , Datamarts.</p>
-
-<p>Certificaciones:
-  Desarrollo FullStack - 
-  Programa de Cultura y Gestión de la Innovación - 
-  Desarrollo Flutter -
-  Marketing Digital</p>
-
-            
-          </div>
+                
         </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">Información</div>
-            <!-- <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">26</div>
-            </div> -->
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Correo:</strong></div>
-              <div class="col-sm-8">renzo.rovi@gmail.com</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Celular:</strong></div>
-              <div class="col-sm-8">+51 972696048</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Dirección:</strong></div>
-              <div class="col-sm-8">Lima,Perú</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Idiomas:</strong></div>
-              <div class="col-sm-8">English,Spanish</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Herramientas</strong></div>
-              <div class="col-sm-8">Visual Code, Flutter, Swift, Git, HTML, CSS, Filmora, Photoshop, Figma, AdobeXD, After Effects</div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
+    <!-- Gallery Area End -->
 
-<!--
-<div class="section" id="skill">
-  <div class="container">
-    <div class="h4 text-center mb-4 title">Professional Skills</div>
-    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Flutter</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">APIS</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">DESIGN UX-UI</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">GIT - BITBUCKER</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">JAVA</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
---> 
-
-<div class="section" id="portfolio">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portafolio</div>
-        <div class="nav-align-center">
-          <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
-            <!-- <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li> -->
-          <!--  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li> -->
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-3">              
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://mftprueba520200514112456.azurewebsites.net/">
-                  <figure class="cc-effect"><img src="images/logomft.png" width="240" height="240" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Página Web</div>
-                      <p>MFT Habits4life</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-3">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://www.youtube.com/watch?v=AlPRtAhC3OA&ab_channel=MFTHabits4life">
-                  <figure class="cc-effect"><img src="images/logoqenqo.png" width="240" height="240" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Aplicativo Flutter</div>
-                      <p>Qenqo App</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-3">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://play.google.com/store/apps/details?id=rutusapp.peru">
-                  <figure class="cc-effect"><img src="images/serru.png" width="240" height="240" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Aplicativo Flutter</div>
-                      <p>Rutus App</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-3">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://play.google.com/store/apps/details?id=pe.com.sodimac.paperless">
-                  <figure class="cc-effect"><img src="images/sodimac.png" width="240" height="240" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Aplicativo Flutter</div>
-                      <p>SODIMAC - Paperless</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-3">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://fb.watch/4-6OfHzogt/">
-                  <figure class="cc-effect"><img src="images/apfig.jpeg" width="240" height="240" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Video Publicidad</div>
-                      <p>Ap Figthers</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div class="tab-pane" id="graphic-design" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/filmora.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Fotografía y Edición</div>
-                      <p>Desarrollo de videos y edición
-                        ¿ Quieres mostrar contenido de calidad ? Creación de video productos 
-                      </p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/socialmedia.png" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Marketing Digital & Social Media & Comunnity Manager</div>
-                      <p>Invierte poco e inteligente! Aprovecha tus aptitudes ¿ Que puedo hacer bien, que me guste y que me paguen por ello?
-                        Aprende a invertir desde 10 soles con un retorno del 450 %.
-                        Para negociantes tradicionales
-                      </p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-                        
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/startup.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Startups & Consultoria </div>
-                      <p>¿ Cómo crear tu primer startup? ¿ Cómo crear un equipo multidisciplinario ? ¿ Mejorar tus habilidades blandas ?
-                        Potenciate! Conoce sobre fuentes para mejorar su productividad pero lo más importante conocer tus grandes fortalezas!
-                      </p>
-                    </figcaption>
-                  </figure></a></div>
-
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Abstract Line</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a>
-               </div> 
-
-            </div>
-           
-
-          </div>
-        </div>
-      </div> -->
-      
-      <!-- <div class="tab-pane" id="Photography" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Wedding Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Beach Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Nature Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-    </div>
-  </div>
-</div>
-
-<div class="section" id="experience">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Enero 2021 - Abril 2021</p>
-            <div class="h5"> MDP Consulting - PERÚ</div>
-          </div>
-        </div>      
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">            
-            <div class="h5">Desarrollador Móvil</div>
-            <p>
-              Cliente: Sodimac - Recursos Humanos
-              Proyecto: Paperless - Flutter - .Net - SQL
-              Implemente la firma digital enviada desde el frente usando la biblioteca de firmas y la codificación a Base64
-              Realizar validaciones de campo para el módulo Aviso Desempeño.
-              Mantener la comunicación con el AF para el correcto avance de las actividades según la planificación basada en la metodología Agile Scrum.
-              Realice el despliegue de aplicaciones móviles y web en servidores de desarrollo y producción.
-              Implementación de apk en PlayStore
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
     
 
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Octubre 2020 - Enero 2021  - PERÚ</p>
-            <div class="h5"> Qenqo App</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Desarrollador Flutter</div>
-           <p>AWS Engineer</p>
-              <p>Creación de Route53
-              Creación de Bucket
-              Creación de SSL
-              Integración CloudFront</p>
-
-              <p>Comunicador Digital</p>
-              <p>Google Drive
-              Excel
-              Instagram Ads
-              Facebook
-              Photoshop
-              Filmora
-              Affter Effects
-              Creación de redes sociales
-              Creación de campañas de publicidad
-              Creación de videos publicidad
-              Diseñar video publicidad usando AffterEffects, Photoshop, Filmora :
-              https://www.youtube.com/watch?v=1RaSB8c1MSM </p>
-
-              <p>Desarrollador Flutter</p>
-                
-              <p> Flutter (v 2.0)
-                Build Realese APK
-                Realizar mantenimiento del proyecto desplegado.
-                Manejar la corrección de errores y la mejora del rendimiento de la aplicación.
-                Participar en la estimación del cronograma de los nuevos requisitos y proyectos
-                Desarrollar módulos evaluación y asignación de programas físicos usando Flutter en IDE Visual Code
-                Desplegar versión de prueba APK en Google PlayStore.</p>
-
-              <p> Diseñador UX</p>
-
-              <p>Figma
-              Marvel
-              Miro
-              Establecer estándares para el diseño y la interacción.
-              Creación de Ideal User
-              Crear Journey Map usando Miro.
-              Diseñar prototipos de baja y mediana fidelidad usando Figma.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Enero 2020 - Enero 2021</p>
-            <div class="h5">MFT Habits4life  - PERÚ</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Analista Funcional - Diseñador de Producto</div>
-            <p>Google Drive</p>
-            <p>Excel</p>
-            <p>Angular</p>
-            <p>HTML</p>
-            <p>Java 8 - Spring Boot</p>
-            <p>Eclipse</p>
-            <p>MySQL - MySQWorkbench</p>
-            <p>AWS</p>
-            <p>Bitbucket</p>
-            <p>Creación de cronograma de actividades para el desarrollo de la plataforma web usando project</p>
-            <p>Realizar reuniones con el stakeholder para levantar los requerimientos funcionales.</p>
-            <p>Mantener la comunicación con el desarrollador para el avance de las actividades asignadas.</p>
-            <p>Realizar pruebas funcionales de proyecto version 1</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Febrero 2020 - Abril 2020</p>
-            <div class="h5">Sapia</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Desarrollador Front-end </div>
-          <p>  .Net Framework 3.5</p>
-<p>MVC</p>
-<p>C#</p>
-<p>SQL SSMS</p>
-<p>Visual Studio 2019</p>
-<p>Javascript</p>
-<p>HTML</p>
-<p>Bootstrap</p>
-<p>CSS</p>
-<p>Realizar pruebas unitarias a los módulos de ADRYAN</p>
-<p>Soporte y mantenimiento de Sistema Web de Gestión Humana Adryan</p>
-           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Agosto 2019 - Octubre 2019</p>
-            <div class="h5">Lindcorp - Tambo</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Practicante de Control y Suministros </div>
-           <p> RMS Retail</p>
-           <p>   Reportes: Macros y Excel Avanzado</p>
-           <p>   Visual Basic</p>
-           <p>   Gestión y control de ajustes de inventario( Tambo - 160 tiendas)</p>
-           <p>   Capacitación de nuevos procesos de Registro de Cajas Chicas a los Jefes Zonales.</p>
-           <p>   Recepción y distribución de documentos de habilitación de las aperturas de Tiendas Tambo a los Jefes Zonales</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Julio 2018 - Abril 2019</p>
-            <div class="h5">Hipermercados Tottus - PERÚ</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Practicante de Desarrollo e Innovación </div>
-            <p>Windows Server 2008 R2</p>
-              <p>SQL Server 2008, 2012</p>
-              <p> Visual Studio 2017 , 2019</p>
-                <p>Batch</p>
-                  <p>Macros y Reportes: Excel y Access</p>
-                    <p>.Net Core 2.0 , ASP.Net, Framework 2.0, 2.5</p>
-                      <p>Automatización UiPath</p>
-                        <p> Analisis de requerimientos.</p>
-                          <p>   Metodología s agiles Scrum y Kanban</p>
-                            <p>   Transformación digital</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Diciembre 2017 - Junio 2018</p>
-            <div class="h5">BASF - PERÚ</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Practicante de TI</div>
-            
-            <p>      Cisco Jabber</p>
-              <p> Soporte y acceso SAP
-                <p> Excel : Actualización de Activos Fijos </p>
-                <p> Redes e infrastructura: Data Center </p>
-                <p> Soporte e instalación de programas en equipos portatiles. </p>
-                <p> Habilitar accesos Active Directory - SmartCard. </p>
-                <p> Gestión e Implementación de tecnologias de comunicación. </p>
-                <p> Capacitación de usuarios sobre la ISO27001 y las medidas seguridad de la Información </p>
-                <p> HardReset Kernel( 160 equipos) </p>
-         
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="section">
-  <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Educación</div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2021 - 2021</p>
-            <div class="h5">Cultura y Gestión de la Innovación</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Capacitación profesional</div>
-            <p class="category">Universidad Pontífica de Chile - Angelini Anacleto -MINPRO - INNOVATE</p>
-            <p>
-              Desarrollo de una plataforma digital para mejorar la gestión de servicio de la empresa MFTHabits4life</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2020 - 2020</p>
-            <div class="h5">Ingeniero Informático</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Ingeniero Informático</div>
-            <p class="category">Universidad Ricardo Palma</p>
-            <p>
-              Desarrollo de una plataforma digital para mejorar la gestión de servicio de la empresa MFTHabits4life</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2012 - 2019</p>
-            <div class="h5">Bachiller en Ingenieria Informática</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Bachiller en Ingenieria Informática</div>
-            <p class="category">Universidad Ricardo Palma</p>
-            <p> Proyecto de Programación - http://feriaproyectosinginf.blogspot.com/</p> 
-            <p> Selección del equipo de  Wushu de la URP </p> 
-            <p> Coordinador de Marketing en el proyecto HultPrize </p> 
-          </div> 
-        </div>
-      </div>
-    </div>
-    <!-- <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2007 - 2009</p>
-            <div class="h5">High School</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">La Salle de Lima - Pamer</div>
-            <p class="category">School of Secondary board</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-  </div>
-</div>
-<!-- <div class="section" id="reference">
-  <div class="container cc-reference">
-    <div class="h4 mb-4 text-center title">References</div>
-    <div class="card" data-aos="zoom-in">
-      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-          <li data-target="#cc-Indicators" data-slide-to="1"></li>
-          <li data-target="#cc-Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
-                <div class="h5 pt-2">Aiyana</div>
-                <p class="category">CEO / WEBM</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
-                <div class="h5 pt-2">Braiden</div>
-                <p class="category">CEO / Creativem</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
-                <div class="h5 pt-2">Alexander</div>
-                <p class="category">CEO / Webnote</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-<div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('images/staticlimamap.jpeg');background-repeat: no-repeat;background-size:cover;">
-    <div class="container">
-      <div class="cc-contact">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contáctame</div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <form action="https://formspree.io/renzo.rovi@gmail.com" method="POST">
-                      <div class="p pb-3"><strong>Agenda GRATIS</strong></div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="Nombre" required="required"/>
-                          </div>
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Asunto" required="required"/>
-                          </div>
+                        <!-- Footer Logo -->
+                        <!-- <div class="footer-logo">
+                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div> -->
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/atrapame155/"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/renzorosaz/"><i class="ti-instagram" aria-hidden="true"></i></a>+
+                            <a href="https://www.linkedin.com/in/renzorovi/"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCKnJUTjITAnrZd7l2JnsMCg/videos"><i class="ti-youtube" aria-hidden="true"></i></a>
                         </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" placeholder="Correo required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Tu mensaje" required="required"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                          <button class="btn btn-primary" type="submit">Envia con todo el poder</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <p class="mb-0"><strong>Dirección </strong></p>
-                    <p class="pb-2">Lima, Perú</p>
-                    <p class="mb-0"><strong>Celular</strong></p>
-                    <p class="pb-2">+51 972696048</p>
-                    <p class="mb-0"><strong>Correo</strong></p>
-                    <p>renzo.rovi@gmail.com</p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <footer class="footer">
-      <div class="container text-center">
-        <a class="cc-facebook btn btn-link" href="https://www.facebook.com/atrapame155/">
-          <i class="fa fa-facebook fa-2x " aria-hidden="true">
-
-          </i>
-        </a>
-        <a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/renzorovi/">
-          <i class="fa fa-linkedin fa-2x " aria-hidden="true">
-
-          </i>
-        </a>
-        <a class="cc-youtube btn btn-link " href="#https://www.youtube.com/watch?v=W1Eo5SzqOxs&list=PLbgrwYC4TcROxf_3fseJrRH-SBlbQex8K&index=2&ab_channel=RenzoR.">
-            <i class="fa fa-youtube fa-2x " aria-hidden="true">
-
-            </i>
-          </a>
-          <!-- <a class="cc-google-plus btn btn-link" href="#">
-              <i class="fa fa-google-plus fa-2x" aria-hidden="true">
-
-              </i>
-            </a> -->
-            <a class="cc-instagram btn btn-link" href="https://www.instagram.com/martinrovi.fit">
-                <i class="fa fa-instagram fa-2x " aria-hidden="true">
-
-                </i>
-              </a>
-            </div>
-      <div class="h4 title text-center">Made in Lima Perú</div>
-      <div class="text-center text-muted">
-        <!-- <p>&copy; RECreative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p> -->
-      </div>
     </footer>
-    <script src="js/core/jquery.3.2.1.min.js"></script>
-    <script src="js/core/popper.min.js"></script>
-    <script src="js/core/bootstrap.min.js"></script>
-    <script src="js/now-ui-kit.js?v=1.1.0"></script>
-    <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>
-  </body>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
 </html>
